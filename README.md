@@ -4,10 +4,6 @@ Projeto em linguagem C utilizando ESP-IDF para controle de um display de 7 segme
 
 A aplicação exibe sequencialmente os valores hexadecimais de `0x0` até `0xF` e controla o ponto decimal de acordo com a paridade do valor exibido.
 
-## Demonstração
-
-![Simulação do display de 7 segmentos](./assets/display7seg_simulation.gif)
-
 ## Objetivo
 
 Praticar conceitos fundamentais de sistemas embarcados utilizando ESP32-C3, ESP-IDF e FreeRTOS, com foco em:
@@ -18,6 +14,14 @@ Praticar conceitos fundamentais de sistemas embarcados utilizando ESP32-C3, ESP-
 - uso de `switch`;
 - controle de display de 7 segmentos;
 - temporização com `vTaskDelay()`.
+
+## Demonstração
+
+<p align="center">
+  <img src="./assets/display7seg_simulation.gif"
+       alt="Simulação do display de 7 segmentos no Wokwi"
+       width="600">
+</p>
 
 ## Funcionamento
 
