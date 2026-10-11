@@ -1,0 +1,13 @@
+# Build do ESP-IDF
+build/
+
+# Arquivos temporários
+*.log
+*.tmp
+
+# VS Code
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
